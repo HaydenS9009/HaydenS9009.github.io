@@ -11,3 +11,15 @@ h3, p, li {
     color: white;
     font-family: Arial, Verdana, Tahoma, sans-serif;
 }
+
+/* Experience Table */
+.experience {
+    td {
+        vertical-align: top;
+    }
+}
+
+/* Left column of the Experience table */
+.experienceLeft {
+    width: 20%;
+}
