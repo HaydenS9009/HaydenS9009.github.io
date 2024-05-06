@@ -14,6 +14,7 @@ h3, p, li {
 
 /* Experience Table */
 .experience {
+    width: 100%;
     td {
         vertical-align: top;
     }
@@ -22,4 +23,10 @@ h3, p, li {
 /* Left column of the Experience table */
 .experienceLeft {
     width: 20%;
+}
+
+/* Styling for the main divs of the page */
+.mainCenterDiv {
+    width: 70%;
+    margin: auto;
 }
