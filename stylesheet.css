@@ -2,6 +2,12 @@ body {
     background-color: black
 }
 
-h1, h3, p1, li {
+h3 {
+    font-size: 5em;
+    margin-bottom: 5px;
+}
+
+h3, p, li {
     color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
 }
