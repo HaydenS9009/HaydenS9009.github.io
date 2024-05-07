@@ -46,7 +46,7 @@ h3, p, li {
     left:0;
     position: fixed;
     width: 100%;
-    background-color: grey;
+    background-color: #4F4B50;
 }
 
 /* Buttons in the navigation bar */
@@ -57,13 +57,14 @@ h3, p, li {
     font-size: 2em;
     text-decoration: none;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 0px;
+    width: 16.667%;
 }
 
 /* When hovering over one of the navigation bar buttons */
 .navBar a:hover {
-    background-color: red;
-    color: green;
+    background-color: #E9E9E9;
+    color: black;
 }
 
 .navBarLink {
