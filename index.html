@@ -6,165 +6,176 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div>
-        <a href="Education.html" class="button">Education</a>
-        <a href="Experience.html" class="button">Experience</a>
-        <a href="Projects.html" class="button">Projects</a>
-        <a href="Contact.html" class="button">Contact Me</a>
+    <div class="navBar">
+        <a href="#aboutSection">About Me</a>
+        <a href="#skillSection">Skills</a>
+        <a href="#educationSection">Education</a>
+        <a href="#experienceSection">Experience</a>
+        <a href="#projectsSection">Projects</a>
+        <a href="#contactSection">Contact Me</a>
     </div>
     <div class="mainCenterDiv">
-        <h3>Hayden Stimpson</h3>
-        <p>I’m a Computer Science graduate that has just completed a one year Software Development internship at Integration Technologies Limited. I’m experienced in a range of programming languages, and have an interest in computer hardware and software.</p>
-        <p>~~Github Link~~</p>
-        <p>~~LinkedIn Link~~</p>
-    </div>
-    <div class="mainCenterDiv">
-        <h3>Skills</h3>
-        <table class="skills">
-            <caption>A range of programming related software and languages that I am proficient in</caption>
-            <tr>
-                <!-- icons generated from https://www.svgrepo.com -->
-                <td>
-                    <p>Python</p>
-                    <img src="Icons/python-127-svgrepo-com.png" alt="Python">
-                <td>
-                    <p>Java</p>
-                    <img src="Icons/java-svgrepo-com.png" alt="Java">
-                <td>
-                    <p>C#</p>
-                    <img src="Icons/c-sharp-svgrepo-com.png" alt="C Sharp">
-                </td>
-                <td>
-                    <p>SQL</p>
-                    <img src="Icons/sql-database-generic-svgrepo-com.png" alt="SQL">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Git</p>
-                    <img src="Icons/git-svgrepo-com.png" alt="Git">
-                </td>
-                <td>
-                    <p>Mercurial</p>
-                    <img src="Icons/vc-mercurial-svgrepo-com.png" alt="Mercurial">
-                </td>
-                <td>
-                    <p>Ruby</p>
-                    <img src="Icons/ruby-svgrepo-com.png" alt="Ruby">
-                </td>
-                <td>
-                    <p>HTML</p>
-                    <img src="Icons/html5-01-svgrepo-com.png" alt="HTML">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>CSS</p>
-                    <img src="Icons/css-fill-svgrepo-com.png" alt="CSS">
-                </td>
-                <td>
-                    <p>Javascript</p>
-                    <img src="Icons/javascript-svgrepo-com.png" alt="Javascript">
-                </td>
-                <td>
-                    <p>Wordpress</p>
-                    <img src="Icons/wordpress-139-svgrepo-com.png" alt="Wordpress">
-                </td>
-                <td>
-                    <p>.NET</p>
-                    <img src="Icons/dotnet-svgrepo-com.png" alt="DotNet">
-                </td>
-            </tr>
-        </table>
-        <h3>Education</h3>
-        <table class="experience">
-            <caption>Hayden Stimpson's education</caption>
-            <tr>
-                <td class="experienceLeft"><p>Feb 2019 - June 2022</p></td>
-                <td>
-                    <p><b>Massey University - Bachelor of Science</b></p>
-                    <p><i>Tennent Drive - Palmerston North</i></p>
-                    <ul>
-                        <li>Major in Computer Science</li>
-                        <li>Minor in Mathematics</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <h3>Experience</h3>
-        <table class="experience">
-            <caption>Hayden Stimpson's work experience</caption>
-            <tr>
-                <td class="experienceLeft"><p>Sep 2022 - Sep 2023</p></td>
-                <td>
-                    <p><b>Integration Technologies Limited - Software Developer Intern</b></p>
-                    <p><i>136b The Square, Palmerston North</i></p>
-                    <ul>
-                        <li>Implemented bug fixes and feature improvements to various internal company programs, using different languages including Python, C#, Java, MySQL.</li>
-                        <li>Created a company dashboard using Ruby, HTML, and CSS. Gathered data using REST APIs.</li>
-                        <li>Added wiki documentation in Confluence.</li>
-                        <li>Created a Python script to convert all of the companies Mercurial repos to Git, keeping history, tags, branches and submodules.</li>
-                        <li>Created Batch scripts to automatically install programs based on different developer requirements.</li>
-                        <li>Configured environments for new CI build machines.</li>
-                        <li>Implemented automatic testing mode and added the ability to dynamically combine tanks for a C# Fuel Tank Gauge Simulator.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="experienceLeft"><p>Jan 2019 - Sep 2022</p></td>
-                <td>
-                    <p><b>Gropak - Packer/Order Picker</b></p>
-                    <p><i>21 Dampneys Road, Palmerston North</i></p>
-                    <ul>
-                        <li>Independently packed processed vegetables into boxes, and collated orders onto pallets on time for delivery.</li>
-                        <li>Ensured traceability by entering data of the day's orders and the production date of the product that is sent to each store.</li>
-                        <li>Entered data for current day production to measure wastage and record raw material lines for traceability of each line each day.</li>
-                        <li>Printed and designed labels using Bartender software.</li>
-                        <li>Ensured processed product and its packaging was suitable to be sold in stores.</li>
-                        <li>Completed a stocktake at the end of the day (raw and processed product).</li>
-                        <li>Trained others to do the same work, and how to use the different software.</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+        <div id="aboutSection">
+            <h3>Hayden Stimpson</h3>
+            <p>I’m a Computer Science graduate that has just completed a one year Software Development internship at Integration Technologies Limited. I’m experienced in a range of programming languages, and have an interest in computer hardware and software.</p>
+            <p>~~Github Link~~</p>
+            <p>~~LinkedIn Link~~</p>
+        </div>
+        <div id="skillSection">
+            <h3>Skills</h3>
+            <table class="skills">
+                <caption>A range of programming related software and languages that I am proficient in</caption>
+                <tr>
+                    <!-- icons generated from https://www.svgrepo.com -->
+                    <td>
+                        <p>Python</p>
+                        <img src="Icons/python-127-svgrepo-com.png" alt="Python">
+                    <td>
+                        <p>Java</p>
+                        <img src="Icons/java-svgrepo-com.png" alt="Java">
+                    <td>
+                        <p>C#</p>
+                        <img src="Icons/c-sharp-svgrepo-com.png" alt="C Sharp">
+                    </td>
+                    <td>
+                        <p>SQL</p>
+                        <img src="Icons/sql-database-generic-svgrepo-com.png" alt="SQL">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Git</p>
+                        <img src="Icons/git-svgrepo-com.png" alt="Git">
+                    </td>
+                    <td>
+                        <p>Mercurial</p>
+                        <img src="Icons/vc-mercurial-svgrepo-com.png" alt="Mercurial">
+                    </td>
+                    <td>
+                        <p>Ruby</p>
+                        <img src="Icons/ruby-svgrepo-com.png" alt="Ruby">
+                    </td>
+                    <td>
+                        <p>HTML</p>
+                        <img src="Icons/html5-01-svgrepo-com.png" alt="HTML">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>CSS</p>
+                        <img src="Icons/css-fill-svgrepo-com.png" alt="CSS">
+                    </td>
+                    <td>
+                        <p>Javascript</p>
+                        <img src="Icons/javascript-svgrepo-com.png" alt="Javascript">
+                    </td>
+                    <td>
+                        <p>Wordpress</p>
+                        <img src="Icons/wordpress-139-svgrepo-com.png" alt="Wordpress">
+                    </td>
+                    <td>
+                        <p>.NET</p>
+                        <img src="Icons/dotnet-svgrepo-com.png" alt="DotNet">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="educationSection">
+            <h3>Education</h3>
+            <table class="experience">
+                <caption>Hayden Stimpson's education</caption>
+                <tr>
+                    <td class="experienceLeft"><p>Feb 2019 - June 2022</p></td>
+                    <td>
+                        <p><b>Massey University - Bachelor of Science</b></p>
+                        <p><i>Tennent Drive - Palmerston North</i></p>
+                        <ul>
+                            <li>Major in Computer Science</li>
+                            <li>Minor in Mathematics</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="experienceSection">
+            <h3>Experience</h3>
+            <table class="experience">
+                <caption>Hayden Stimpson's work experience</caption>
+                <tr>
+                    <td class="experienceLeft"><p>Sep 2022 - Sep 2023</p></td>
+                    <td>
+                        <p><b>Integration Technologies Limited - Software Developer Intern</b></p>
+                        <p><i>136b The Square, Palmerston North</i></p>
+                        <ul>
+                            <li>Implemented bug fixes and feature improvements to various internal company programs, using different languages including Python, C#, Java, MySQL.</li>
+                            <li>Created a company dashboard using Ruby, HTML, and CSS. Gathered data using REST APIs.</li>
+                            <li>Added wiki documentation in Confluence.</li>
+                            <li>Created a Python script to convert all of the companies Mercurial repos to Git, keeping history, tags, branches and submodules.</li>
+                            <li>Created Batch scripts to automatically install programs based on different developer requirements.</li>
+                            <li>Configured environments for new CI build machines.</li>
+                            <li>Implemented automatic testing mode and added the ability to dynamically combine tanks for a C# Fuel Tank Gauge Simulator.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="experienceLeft"><p>Jan 2019 - Sep 2022</p></td>
+                    <td>
+                        <p><b>Gropak - Packer/Order Picker</b></p>
+                        <p><i>21 Dampneys Road, Palmerston North</i></p>
+                        <ul>
+                            <li>Independently packed processed vegetables into boxes, and collated orders onto pallets on time for delivery.</li>
+                            <li>Ensured traceability by entering data of the day's orders and the production date of the product that is sent to each store.</li>
+                            <li>Entered data for current day production to measure wastage and record raw material lines for traceability of each line each day.</li>
+                            <li>Printed and designed labels using Bartender software.</li>
+                            <li>Ensured processed product and its packaging was suitable to be sold in stores.</li>
+                            <li>Completed a stocktake at the end of the day (raw and processed product).</li>
+                            <li>Trained others to do the same work, and how to use the different software.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
 
-        <h3>Volunteer Experience</h3>
-        <table class="experience">
-            <caption>Hayden Stimpson's volunteer experience</caption>
-            <tr>
-                <td class="experienceLeft"><p>Feb 2017 - Nov 2018</p></td>
-                <td>
-                    <p><b>Longburn Adventist College - Audio Visual Manager</b></p>
-                    <p><i>100 Walkers Road, Palmerston North</i></p>
-                    <ul>
-                        <li>Organized Audio Visual Technicians for each event.</li>
-                        <li>Trained new Audio Visual Technicians with how to operate each station (Visuals, Lighting, and Sound), and how to set up all equipment.</li>
-                        <li>Ensured all equipment is set up correctly, and that the tech side of each event goes smoothly.</li>
-                        <li>Worked with the event and music coordinators to facilitate practices and event programmes. </li>
-                        <li>Operated Visuals station using Easyworship software.</li>
-                        <li>Operated Lighting station using Sweetlight software.</li>
-                        <li>Operated Sound station using a Behringer X32 Digital Audio Mixer.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td class="experienceLeft"><p>Feb 2013 - Dec 2016</p></td>
-                <td>
-                    <p><b>Longburn Adventist College - Audio Visual Technician</b></p>
-                    <p><i>100 Walkers Road, Palmerston North</i></p>
-                    <ul>
-                        <li>Operated Visuals station using Easyworship software.</li>
-                        <li>Participated in event practices, and prepared visuals media for the event.</li>
-                        <li>Assisted in setting up audio, visual, and lighting equipment.</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-
-        <h3>Projects</h3>
-        <p></p>
-        <h3>Contact Me</h3>
-        <p></p>
+            <h3>Volunteer Experience</h3>
+            <table class="experience">
+                <caption>Hayden Stimpson's volunteer experience</caption>
+                <tr>
+                    <td class="experienceLeft"><p>Feb 2017 - Nov 2018</p></td>
+                    <td>
+                        <p><b>Longburn Adventist College - Audio Visual Manager</b></p>
+                        <p><i>100 Walkers Road, Palmerston North</i></p>
+                        <ul>
+                            <li>Organized Audio Visual Technicians for each event.</li>
+                            <li>Trained new Audio Visual Technicians with how to operate each station (Visuals, Lighting, and Sound), and how to set up all equipment.</li>
+                            <li>Ensured all equipment is set up correctly, and that the tech side of each event goes smoothly.</li>
+                            <li>Worked with the event and music coordinators to facilitate practices and event programmes. </li>
+                            <li>Operated Visuals station using Easyworship software.</li>
+                            <li>Operated Lighting station using Sweetlight software.</li>
+                            <li>Operated Sound station using a Behringer X32 Digital Audio Mixer.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="experienceLeft"><p>Feb 2013 - Dec 2016</p></td>
+                    <td>
+                        <p><b>Longburn Adventist College - Audio Visual Technician</b></p>
+                        <p><i>100 Walkers Road, Palmerston North</i></p>
+                        <ul>
+                            <li>Operated Visuals station using Easyworship software.</li>
+                            <li>Participated in event practices, and prepared visuals media for the event.</li>
+                            <li>Assisted in setting up audio, visual, and lighting equipment.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="projectsSection">
+            <h3>Projects</h3>
+            <p></p>
+        </div>
+        <div id="contactSection">
+            <h3>Contact Me</h3>
+            <p></p>
+        </div>
     </div>
 </body>
 </html>
