@@ -39,7 +39,29 @@ h3, p, li {
 .skills {
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
 }
+
+.skills a {
+    display: block;
+    text-decoration: none;
+}
+
+.skills p {
+    font-size: 2em;
+}
+
+.skills td {
+    border: 2px solid;
+    border-color: white;
+}
+
+.skills td:hover {
+    background-color: #4F4B50;
+    transform: scale(1.1);
+    border-radius: 25px;
+}
+
 
 .navBar {
     top:0;
