@@ -40,3 +40,32 @@ h3, p, li {
     width: 100%;
     text-align: center;
 }
+
+.navBar {
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+}
+
+/* Buttons in the navigation bar */
+.navBar a {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+/* When hovering over one of the navigation bar buttons */
+.navBar a:hover {
+    background-color: red;
+    color: green;
+}
+
+.navBarLink {
+    padding: 10px 0px;
+}
