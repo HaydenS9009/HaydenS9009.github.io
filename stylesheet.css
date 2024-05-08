@@ -102,7 +102,6 @@ h3, p, li {
     img {
         height: 3em;
     }
-    padding-bottom: 4em;
 }
 
 #linkedIn, #gitHub {
@@ -111,6 +110,7 @@ h3, p, li {
     height: 3em;
     object-fit: scale-down;
     a {
+        text-decoration: none;
         display: block;
     }
 }
@@ -121,4 +121,10 @@ h3, p, li {
     }
 }
 
+#aboutSection {
+    text-align: center;
+    p {
+        font-size: 1.3em;
+    }
+}
 
