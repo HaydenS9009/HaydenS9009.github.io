@@ -92,3 +92,33 @@ h3, p, li {
 .navBarLink {
     padding: 10px 0px;
 }
+
+/* Styling for social links */
+.socialLinks {
+    margin: auto;
+    width: 10%;
+    display: block;
+    text-align: center;
+    img {
+        height: 3em;
+    }
+    padding-bottom: 4em;
+}
+
+#linkedIn, #gitHub {
+    padding: 10px 10px;
+    width: 3em;
+    height: 3em;
+    object-fit: scale-down;
+    a {
+        display: block;
+    }
+}
+
+#linkedIn {
+    img {
+        transform: scale(1.5)
+    }
+}
+
+
