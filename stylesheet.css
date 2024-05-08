@@ -6,15 +6,81 @@ body {
     background-color: black
 }
 
+/* All font types */
+h3, p, li {
+    color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+/* Navigation Bar */
+.navBar {
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100%;
+    background-color: #4F4B50;
+    /* Buttons in the navigation bar */
+    a {
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        padding: 10px 0px;
+        width: 16.667%;
+    }
+    a:hover {
+        background-color: #E9E9E9;
+        color: black;
+    }
+}
+/* Id for navigation bar to send user to on click */
+.navBarLink {
+    padding: 10px 0px;
+}
+
+/* Section Headings */
 h3 {
     font-size: 5em;
     margin-bottom: 5px;
     text-align: center;
 }
 
-h3, p, li {
-    color: white;
-    font-family: Arial, Verdana, Tahoma, sans-serif;
+/* Styling for the main divs of the page */
+.mainCenterDiv {
+    width: 70%;
+    margin: auto;
+}
+
+#aboutSection {
+    text-align: center;
+    p {
+        font-size: 1.3em;
+    }
+}
+
+/* Skills Table */
+.skills {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    td {
+        border: 2px solid;
+        border-color: white;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+    p {
+        font-size: 2em;
+    }
+    td:hover {
+        background-color: #4F4B50;
+        transform: scale(1.1);
+        border-radius: 25px;
+    }
 }
 
 /* Experience Table */
@@ -24,73 +90,9 @@ h3, p, li {
         vertical-align: top;
     }
 }
-
 /* Left column of the Experience table */
 .experienceLeft {
     width: 20%;
-}
-
-/* Styling for the main divs of the page */
-.mainCenterDiv {
-    width: 70%;
-    margin: auto;
-}
-
-.skills {
-    width: 100%;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-.skills a {
-    display: block;
-    text-decoration: none;
-}
-
-.skills p {
-    font-size: 2em;
-}
-
-.skills td {
-    border: 2px solid;
-    border-color: white;
-}
-
-.skills td:hover {
-    background-color: #4F4B50;
-    transform: scale(1.1);
-    border-radius: 25px;
-}
-
-
-.navBar {
-    top:0;
-    left:0;
-    position: fixed;
-    width: 100%;
-    background-color: #4F4B50;
-}
-
-/* Buttons in the navigation bar */
-.navBar a {
-    display: block;
-    float: left;
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
-    padding: 10px 0px;
-    width: 16.667%;
-}
-
-/* When hovering over one of the navigation bar buttons */
-.navBar a:hover {
-    background-color: #E9E9E9;
-    color: black;
-}
-
-.navBarLink {
-    padding: 10px 0px;
 }
 
 /* Styling for social links */
@@ -103,7 +105,7 @@ h3, p, li {
         height: 3em;
     }
 }
-
+/* Buttons that link to my LinkedIn and GitHub accounts */
 #linkedIn, #gitHub {
     padding: 10px 10px;
     width: 3em;
@@ -114,17 +116,8 @@ h3, p, li {
         display: block;
     }
 }
-
 #linkedIn {
     img {
         transform: scale(1.5)
     }
 }
-
-#aboutSection {
-    text-align: center;
-    p {
-        font-size: 1.3em;
-    }
-}
-
