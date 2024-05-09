@@ -85,6 +85,9 @@ h3 {
         height: 16em;
     }
 }
+.projects td {
+    width: 50%;
+}
 
 /* Experience Table */
 .experience {
