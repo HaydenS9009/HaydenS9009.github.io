@@ -37,7 +37,8 @@ h3, p, li {
 }
 /* Id for navigation bar to send user to on click */
 .navBarLink {
-    padding: 10px 0px;
+    padding-top: 100px;
+    padding-bottom: 500px;
 }
 
 /* Section Headings */
