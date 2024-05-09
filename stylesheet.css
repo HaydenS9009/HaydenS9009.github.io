@@ -61,7 +61,7 @@ h3 {
 }
 
 /* Skills Table */
-.skills {
+.skills, .projects {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
@@ -80,6 +80,9 @@ h3 {
         background-color: #4F4B50;
         transform: scale(1.1);
         border-radius: 25px;
+    }
+    img {
+        height: 16em;
     }
 }
 
