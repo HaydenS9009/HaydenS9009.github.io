@@ -89,7 +89,6 @@ h3 {
     }
     td:hover {
         background-color: #4F4B50;
-        transform: scale(1.1);
         border-radius: 25px;
     }
     img {
