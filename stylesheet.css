@@ -75,6 +75,7 @@ h3 {
     td {
         border: 2px solid;
         border-color: white;
+        overflow: hidden;
     }
     a {
         display: block;
@@ -91,6 +92,7 @@ h3 {
     img {
         height: 16em;
     }
+    table-layout: fixed;
 }
 .projects td {
     width: 50%;
